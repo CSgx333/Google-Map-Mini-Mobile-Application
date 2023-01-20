@@ -4,5 +4,6 @@ Using Javascript language to develop, Use React Native Framework. Used an API fo
 # Screens it contains
 <p> => Home Page <p/>
 <p> => Map Page<p/>
-<p> => Product Search Page <p/>
+<p> => Search System <p/>
+
 
