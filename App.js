@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View} from 'react-native'
 import React from 'react'
 import home from './screens/Home'
-import map from './screens/Map'
+import detail from './screens/Detail'
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
@@ -18,9 +18,9 @@ const App = () => {
           action="bell"
         />
         <Stack.Screen
-          name="map"
-          component={map}
-          options={{ title: 'Map' }}
+          name="detail"
+          component={detail}
+          options={{ title: 'Detail' }}
         />
       </Stack.Navigator>
     </NavigationContainer>
